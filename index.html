@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Astronomy Quizzes</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Astronomy Quizzes</h1>
+  </header>
+
+  <!-- First Quiz -->
+  <section id="quiz-1">
+    <h2>Quiz 1: Basic Astronomy</h2>
+    <form id="quiz1-form"></form>
+    <button type="button" onclick="submitQuiz1()">Submit Quiz 1</button>
+  </section>
+
+  <!-- Second Quiz -->
+  <section id="quiz-2">
+    <h2>Quiz 2: Advanced Astronomy</h2>
+    <form id="quiz2-form"></form>
+    <button type="button" onclick="submitQuiz2()">Submit Quiz 2</button>
+  </section>
+
+  <div id="results"></div>
+
+  <script src="js/questions/questions.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
